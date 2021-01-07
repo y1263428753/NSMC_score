@@ -3,7 +3,7 @@ name: 'run'
 on:
 
   schedule:
-    - cron: '0 4 * 1,2,6,7 1'
+    - cron: '0 4 * * *'
 
 jobs:
   run:
